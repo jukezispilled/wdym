@@ -14,7 +14,7 @@ function App() {
           <motion.a
             href="https://dexscreener.com/solana/2mfnqrdtfqt7l6ftemmnmtehw3dtqs45q63yzsucwjqe"
             className='font-bold text-6xl md:text-8xl lg:text-9xl bg-green-500 p-6 border-2 border-black rounded-lg'
-            animate={{ scale: [1, 1.05, 1] }}
+            animate={{ scale: [1, 1.05, 1, 1.03] }}
             transition={{
               duration: 1,
               repeat: Infinity,
