@@ -24,17 +24,17 @@ function App() {
             BUY
           </motion.a>
           <div className='pt-8 text-center font-custom text-2xl flex justify-center -mt-3'>
-            <a href="https://x.com/SolanaWDYM" className='p-2 hover:scale-110 transition ease-in-out duration-200'>
+            <a href="https://x.com/wdymsolana" className='p-2 hover:scale-110 transition ease-in-out duration-200'>
               <img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img>
             </a>
-            <a href="https://t.me/wdymsol" className='p-2 hover:scale-110 transition ease-in-out duration-200'>
+            <a href="https://t.me/solwdym" className='p-2 hover:scale-110 transition ease-in-out duration-200'>
               <img src={TG} alt='Tg logo' className='w-12 h-12'></img>
             </a>
           </div>
         </div>
       </div>
     </div>
-    <Marquee speed={125}>
+    <Marquee className="bg-pink-400" speed={125}>
       <div className='h-[5vh] text-3xl md:text-4xl font-bold bg-pink-400'>
         $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM $WDYM&nbsp;
       </div>
