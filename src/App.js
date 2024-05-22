@@ -53,7 +53,7 @@ const App = () => (
       <div className='w-screen h-[1px] bg-black'></div>
       <div className='h-[85vh] w-screen' style={{backgroundImage: `url(${process.env.PUBLIC_URL}/clouds.png)`}}>
         <div className='h-full flex justify-center items-center text-6xl md:text-9xl font-semibold'>
-          <div className=''>
+          <div className='-mt-6'>
             <span>$WDYM</span>
             <div className='text-xl text-center'>loading....</div>
             <div className='pt-4 text-center font-custom text-2xl flex justify-center -mt-3'>
