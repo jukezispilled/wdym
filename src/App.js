@@ -55,7 +55,7 @@ const App = () => (
         <div className='h-full flex justify-center items-center text-6xl md:text-9xl font-semibold'>
           <div className=''>
             <span>$WDYM</span>
-            <div className='text-xl text-center'>loading...</div>
+            <div className='text-xl text-center'>loading....</div>
             <div className='pt-4 text-center font-custom text-2xl flex justify-center -mt-3'>
               <a href="https://x.com/SolanaWDYM" className='p-2 hover:scale-110 transition ease-in-out duration-200'>
                 <img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img>
